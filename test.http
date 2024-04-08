@@ -1,0 +1,8 @@
+GET http://localhost:4004/odata/v4/product/Products
+
+###
+POST http://localhost:4004/odata/v4/product/Products
+Content-Type:application/json
+
+
+{"ID":298,"name":"test","description":"good test","price":241,"stock_quantity":147}
